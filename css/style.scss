@@ -1,0 +1,13 @@
+$bgColor : #1b1b1b;
+div#mp3_player {
+    width     : 1000px;
+    height    : 1000px;
+    background: $bgColor;
+}
+div#mp3_player > div > audio {
+    display: none;
+}
+div#mp3_player > canvas {
+
+    background: $bgColor;
+}
