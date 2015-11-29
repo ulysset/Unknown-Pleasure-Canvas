@@ -1,13 +1,42 @@
-$bgColor : #1b1b1b;
-div#mp3_player {
-    width     : 1000px;
-    height    : 1000px;
-    background: $bgColor;
-}
-div#mp3_player > div > audio {
-    display: none;
-}
-div#mp3_player > canvas {
+$bgColor : #1B1B1B;
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: $bgColor;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 700;
+    color : #fefefe;
+}
+.joyCover{
+    width: 1000px;
+    height: 1120px;
+    background: $bgColor;
+    h1{
+        text-align: center;
+        font-size: 80px;
+        opacity: .9;
+        transform: scaleX(0.94) translateY(10px);
+    }
+    canvas {
+        transform-origin: top;
+        transform: scale(.6);
+    }
+
+    .randomizer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        width: 200px;
+        border: 2px solid #fefefe;
+        background: #1B1B1B;
+        &:hover{
+            background: #fefefe;
+            h2{
+                color : #1B1B1B;
+            }
+        }
+    }
 }

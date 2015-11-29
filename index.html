@@ -4,15 +4,21 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Canvas</title>
+    <title>Joy Division</title>
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div id="mp3_player">
-        <div id="audio_box"></div>
-        <canvas id="analyser_render" width="1000" height="1000"></canvas>
+
+    <div class="joyCover">
+        <h1>JOY DIVISION</h1>
+        <canvas id="joyCanvas" width="1000" height="1120"></canvas>
+        <div class="randomizer" onclick="loop()"><h2>RANDOMIZE IT</h2></div>
     </div>
+
+
     <script src="js/raf.polyfill.js"></script>
     <script src="js/script.js"></script>
 </body>
