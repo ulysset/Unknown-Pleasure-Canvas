@@ -62,7 +62,6 @@ const lineDraw = () => {
             bezierDraw(xArrival, (numberGenerator(yLineBegin - lineHeightStartEnd, yLineBegin)))
         }
         xArrivalOld = 100;
-
         c.lineTo(900, yLineBegin); // to end at the same point
         c.lineWidth = 5;
         c.strokeStyle = '#fefefe';

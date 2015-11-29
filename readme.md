@@ -21,9 +21,6 @@ J'ai donc ajouté une fonction RANDOMIZE IT pour pouvoir toucher au requestAnima
 J'ai aussi eu du mal à créer une fonction permettant de tracer une courbe entre deux points avec une courbe plus ou moins marqué en fonction de l'ancien point X de départ et point X d'arrivée
 
 
-## Points particuliers
-Ce site n'est pas responsive
-
 ## Pour modifier le code source
 
 J'ai laissé le package.json dans la racine et mon gulpfile.js, il est donc nécessaire d'avoir Gulp installé en global.
