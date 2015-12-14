@@ -2,40 +2,52 @@ $bgColor : #1B1B1B;
 
 body {
     display: flex;
-    justify-content: center;
-    align-items: center;
+
+    color : #fefefe;
     background: $bgColor;
+
     font-family: 'Comfortaa', sans-serif;
     font-weight: 700;
-    color : #fefefe;
+
+    justify-content: center;
+    align-items: center;
 }
+
 .joyCover{
     width: 1000px;
     height: 830px;
+
     background: $bgColor;
-    
+
     h1{
-        text-align: center;
-        font-size: 80px;
-        opacity: .9;
         transform: scaleX(0.94) translateY(10px);
+        text-align: center;
+
+        opacity: .9;
+
+        font-size: 80px;
     }
     canvas {
-        transform-origin: top;
         transform: scale(.6);
+        transform-origin: top;
     }
 
     .randomizer{
-        display: flex;
-        justify-content: center;
-        align-items: center;
         position: absolute;
-        transform: translate(400px, -420px);
-        height: 40px;
+
+        display: flex;
+
         width: 200px;
+        height: 40px;
+
         cursor: pointer;
+        transform: translate(400px, -420px);
+
         border: 2px solid #fefefe;
         background: #1B1B1B;
+
+        justify-content: center;
+        align-items: center;
 
         &:hover{
             background: #fefefe;
